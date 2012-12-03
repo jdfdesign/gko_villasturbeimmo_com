@@ -1,14 +1,11 @@
-PATH
-  remote: ~/Github/gko_cms3/gko_auth
+GIT
+  remote: git@github.com:jdfdesign/gko_cms3.git
+  revision: 6b9d29e124282d3d3524be4e3dd176d18f63a2e9
   specs:
-    gko_auth (0.5.18)
+    gko_auth (0.5.19)
       cancan (= 1.6.8)
       devise (= 2.1.2)
-
-PATH
-  remote: ~/Github/gko_cms3/gko_core
-  specs:
-    gko_core (0.5.18)
+    gko_core (0.5.19)
       RedCloth (= 4.2.9)
       activesupport-slices (= 0.0.2)
       acts_as_indexed (~> 0.7.7)
@@ -48,16 +45,8 @@ PATH
       uglifier (>= 1.0.3)
       uuid (= 2.3.5)
       will_paginate (~> 3.0.2)
-
-PATH
-  remote: ~/Github/gko_cms3/gko_images
-  specs:
-    gko_images (0.5.18)
-
-PATH
-  remote: ~/Github/gko_cms3/gko_inquiries
-  specs:
-    gko_inquiries (0.5.18)
+    gko_images (0.5.19)
+    gko_inquiries (0.5.19)
       filters_spam (~> 0.2)
 
 GEM
@@ -269,10 +258,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.2)
-  gko_auth!
-  gko_core!
-  gko_images!
-  gko_inquiries!
+  gko_auth (= 0.5.19)!
+  gko_core (= 0.5.19)!
+  gko_images (= 0.5.19)!
+  gko_inquiries (= 0.5.19)!
   iconv
   sass-rails (~> 3.2.5)
   uglifier (>= 1.0.3)
