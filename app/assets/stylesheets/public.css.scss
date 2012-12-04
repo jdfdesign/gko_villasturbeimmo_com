@@ -17,6 +17,7 @@ $totalHeight: $contentHeight + $footerHeight + $copyrightHeight + $navbarHeight;
 	@include box-sizing(border-box);
 }
 .jspScrollable,
+.btn:focus,
 a:focus {
   outline: 0;
 }
