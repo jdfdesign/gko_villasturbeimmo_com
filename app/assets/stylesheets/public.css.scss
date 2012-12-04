@@ -251,11 +251,14 @@ body {
 		.nav-collapse {
 			float: right;
 		}
+		#secondary-menu {
+			display: block;
+		}
+		.nav li.dropdown > .dropdown-toggle .caret {
+			display:none;
+		}
+	}
 
-	}
-	#secondary-menu {
-		display: block;
-	}
 	#wrapper-wide-body {
 		position: absolute;
 		width: $totalWidth;
