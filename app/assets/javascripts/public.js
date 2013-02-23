@@ -1,10 +1,6 @@
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap/transition.js
-//= require twitter/bootstrap/alert.js
-//= require twitter/bootstrap/button.js
-//= require twitter/bootstrap/collapse.js
-//= require twitter/bootstrap/dropdown.js
+//= require twitter/bootstrap
 //= require jquery.throttledresize.js
 //= require jquery.mousewheel.3.0.6.js
 //= require jquery.jscrollpane.js
@@ -16,20 +12,19 @@ $(document).ready(function() {
     /////////////////////////////////////////////////
     var slider = $(".content-wrapper"),
 		use_slider = true, // system set to false if page has no text
-    gallery = $('#background-slideshow'),
-    body = $("body"),
-    
-    scrollpane = $('.content-inner'),
-    header_height = $('header.navbar').outerHeight(),
-    footer_height = $('footer.footer').outerHeight(),
-    slider_tab = $("#content-tab"),
-    sliderWidth = 0,
-    slide_open = true,
-    thumbs_tab,
-    thumbs_open = true,
-    scrollpane_api,
-	sliderInitialized = false,
-	breakpoint = 979;
+    	gallery = $('#background-slideshow'),
+    	body = $("body"),
+		scrollpane = $('.content-inner'),
+		header_height = $('header.navbar').outerHeight(),
+		footer_height = $('footer.footer').outerHeight(),
+		slider_tab = $("#content-tab"),
+		sliderWidth = 0,
+		slide_open = true,
+		thumbs_tab,
+		thumbs_open = true,
+		scrollpane_api,
+		sliderInitialized = false,
+		breakpoint = 979;
 
 	$('.nav li.dropdown').on('click.dropdown.data-api', function (e) {
 		if ($(window).width() > breakpoint) {
@@ -48,7 +43,7 @@ $(document).ready(function() {
 			return;
 		}
 		
-		console.log(sliderInitialized + " " + slider.length)
+		//console.log(sliderInitialized + " " + slider.length)
 		
         slider_tab.on('click',
         function(e) {
