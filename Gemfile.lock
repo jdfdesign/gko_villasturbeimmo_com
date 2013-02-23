@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:jdfdesign/gko_cms3.git
-  revision: 22a6da7620a9cf42eaffb8ab0f6894f51b0da76c
+  revision: bbc9c23ce04e4e906c74eb555fd1edcbf5d3b76b
   branch: master
   specs:
     gko_core (1.0.01)
