@@ -259,23 +259,23 @@ textarea {
 /* line 9, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/scaffolding.scss */
 body {
   margin: 0;
-  font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
   line-height: 20px;
-  color: #777777;
-  background-color: #222222;
+  color: #333333;
+  background-color: white;
 }
 
 /* line 22, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/scaffolding.scss */
 a {
-  color: #222222;
+  color: #333333;
   text-decoration: none;
 }
 
 /* line 27, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/scaffolding.scss */
 a:hover,
 a:focus {
-  color: black;
+  color: #191919;
   text-decoration: underline;
 }
 
@@ -725,7 +725,7 @@ p {
 /* line 12, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 .lead {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 200;
   line-height: 30px;
 }
@@ -824,9 +824,9 @@ a.text-success:focus {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 20px;
-  color: #e0bb0f;
+  color: inherit;
   text-rendering: optimizelegibility;
 }
 /* line 66, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
@@ -845,52 +845,52 @@ h3 {
 
 /* line 77, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h1 {
-  font-size: 38.5px;
+  font-size: 33px;
 }
 
 /* line 78, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h2 {
-  font-size: 31.5px;
+  font-size: 27px;
 }
 
 /* line 79, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h3 {
-  font-size: 24.5px;
+  font-size: 21px;
 }
 
 /* line 80, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h4 {
-  font-size: 17.5px;
+  font-size: 15px;
 }
 
 /* line 81, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h5 {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* line 82, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h6 {
-  font-size: 11.9px;
+  font-size: 10.2px;
 }
 
 /* line 84, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h1 small {
-  font-size: 24.5px;
+  font-size: 21px;
 }
 
 /* line 85, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h2 small {
-  font-size: 17.5px;
+  font-size: 15px;
 }
 
 /* line 86, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h3 small {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* line 87, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 h4 small {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* line 92, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
@@ -1023,7 +1023,7 @@ blockquote {
 /* line 195, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/type.scss */
 blockquote p {
   margin-bottom: 0;
-  font-size: 17.5px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -1080,7 +1080,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 10px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1101,7 +1101,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -1152,7 +1152,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 40px;
   color: #333333;
   border: 0;
@@ -1170,7 +1170,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 20px;
 }
@@ -1180,7 +1180,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 55, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
@@ -1211,12 +1211,12 @@ input[type="color"],
   height: 20px;
   padding: 4px 6px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   color: #555555;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   vertical-align: middle;
 }
 
@@ -1790,7 +1790,7 @@ select:focus:invalid:focus {
 /* line 401, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .help-block,
 .help-inline {
-  color: #9d9d9d;
+  color: #595959;
 }
 
 /* line 405, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
@@ -1829,7 +1829,7 @@ select:focus:invalid:focus {
 .input-prepend .uneditable-input,
 .input-prepend .dropdown-menu,
 .input-prepend .popover {
-  font-size: 14px;
+  font-size: 12px;
 }
 /* line 442, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-append input,
@@ -1842,9 +1842,9 @@ select:focus:invalid:focus {
   margin-bottom: 0;
   *margin-left: 0;
   vertical-align: top;
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
 }
 /* line 449, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-append input:focus,
@@ -1863,7 +1863,7 @@ select:focus:invalid:focus {
   height: 20px;
   min-width: 16px;
   padding: 4px 5px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 20px;
   text-align: center;
@@ -1898,26 +1898,26 @@ select:focus:invalid:focus {
 /* line 485, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
 }
 
 /* line 494, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
 }
 /* line 496, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-append input + .btn-group .btn:last-child,
 .input-append select + .btn-group .btn:last-child,
 .input-append .uneditable-input + .btn-group .btn:last-child {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
 }
 /* line 502, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-append .add-on,
@@ -1929,9 +1929,9 @@ select:focus:invalid:focus {
 .input-append .add-on:last-child,
 .input-append .btn:last-child,
 .input-append .btn-group:last-child > .dropdown-toggle {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
 }
 
 /* line 516, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
@@ -1946,25 +1946,25 @@ select:focus:invalid:focus {
 .input-prepend.input-append input + .btn-group .btn,
 .input-prepend.input-append select + .btn-group .btn,
 .input-prepend.input-append .uneditable-input + .btn-group .btn {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
 }
 /* line 523, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-prepend.input-append .add-on:first-child,
 .input-prepend.input-append .btn:first-child {
   margin-right: -1px;
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
 }
 /* line 528, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-prepend.input-append .add-on:last-child,
 .input-prepend.input-append .btn:last-child {
   margin-left: -1px;
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
 }
 /* line 532, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/forms.scss */
 .input-prepend.input-append .btn-group:first-child {
@@ -2200,7 +2200,7 @@ table {
 }
 /* line 53, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/tables.scss */
 .table .table {
-  background-color: #222222;
+  background-color: white;
 }
 
 /* line 65, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/tables.scss */
@@ -2453,7 +2453,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("/assets/twitter/glyphicons-halflings.png");
+  background-image: url("/assets/twitter/glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -2478,7 +2478,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("/assets/twitter/glyphicons-halflings-white.png");
+  background-image: url("/assets/twitter/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png");
 }
 
 /* line 52, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/sprites.scss */
@@ -3279,31 +3279,31 @@ table th[class*="span"],
 .dropdown-submenu:focus > a {
   text-decoration: none;
   color: white;
-  background-color: #1c1c1c;
-  background-image: -moz-linear-gradient(top, #222222, #151515);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#151515));
-  background-image: -webkit-linear-gradient(top, #222222, #151515);
-  background-image: -o-linear-gradient(top, #222222, #151515);
-  background-image: linear-gradient(to bottom, #222222, #151515);
+  background-color: #2d2d2d;
+  background-image: -moz-linear-gradient(top, #333333, #262626);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#262626));
+  background-image: -webkit-linear-gradient(top, #333333, #262626);
+  background-image: -o-linear-gradient(top, #333333, #262626);
+  background-image: linear-gradient(to bottom, #333333, #262626);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF222222', endColorstr='#FF151515', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF333333', endColorstr='#FF262626', GradientType=0);
 }
 
 /* line 101, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/dropdowns.scss */
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #333333;
+  color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #1c1c1c;
-  background-image: -moz-linear-gradient(top, #222222, #151515);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#151515));
-  background-image: -webkit-linear-gradient(top, #222222, #151515);
-  background-image: -o-linear-gradient(top, #222222, #151515);
-  background-image: linear-gradient(to bottom, #222222, #151515);
+  background-color: #2d2d2d;
+  background-image: -moz-linear-gradient(top, #333333, #262626);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#262626));
+  background-image: -webkit-linear-gradient(top, #333333, #262626);
+  background-image: -o-linear-gradient(top, #333333, #262626);
+  background-image: linear-gradient(to bottom, #333333, #262626);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF222222', endColorstr='#FF151515', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF333333', endColorstr='#FF262626', GradientType=0);
 }
 
 /* line 113, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/dropdowns.scss */
@@ -3534,7 +3534,7 @@ button.close {
   *zoom: 1;
   padding: 4px 12px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   text-align: center;
   vertical-align: middle;
@@ -3554,9 +3554,9 @@ button.close {
   *background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  border: 1px solid #bbbbbb;
+  border: 1px solid #cccccc;
   *border: 0;
-  border-bottom-color: #a2a2a2;
+  border-bottom-color: #b3b3b3;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -3617,7 +3617,7 @@ button.close {
 /* line 70, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/buttons.scss */
 .btn-large {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 15px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -3632,7 +3632,7 @@ button.close {
 /* line 81, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/buttons.scss */
 .btn-small {
   padding: 2px 10px;
-  font-size: 11.9px;
+  font-size: 10.2px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -3652,8 +3652,8 @@ button.close {
 
 /* line 96, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/buttons.scss */
 .btn-mini {
-  padding: 1px 6px;
-  font-size: 10.5px;
+  padding: 0 6px;
+  font-size: 9px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -3696,29 +3696,29 @@ input[type="button"].btn-block {
 .btn-primary {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #222222;
-  background-image: -moz-linear-gradient(top, #222222, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#222222));
-  background-image: -webkit-linear-gradient(top, #222222, #222222);
-  background-image: -o-linear-gradient(top, #222222, #222222);
-  background-image: linear-gradient(to bottom, #222222, #222222);
+  background-color: #333333;
+  background-image: -moz-linear-gradient(top, #333333, #333333);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#333333));
+  background-image: -webkit-linear-gradient(top, #333333, #333333);
+  background-image: -o-linear-gradient(top, #333333, #333333);
+  background-image: linear-gradient(to bottom, #333333, #333333);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF222222', endColorstr='#FF222222', GradientType=0);
-  border-color: #222222 #222222 black;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF333333', endColorstr='#FF333333', GradientType=0);
+  border-color: #333333 #333333 #0d0d0d;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) fadein(rgba(0, 0, 0, 0.1), 15%);
-  *background-color: #222222;
+  *background-color: #333333;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 /* line 540, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
   color: white;
-  background-color: #222222;
-  *background-color: #151515;
+  background-color: #333333;
+  *background-color: #262626;
 }
 /* line 548, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
 .btn-primary:active, .btn-primary.active {
-  background-color: #090909 \9;
+  background-color: #1a1a1a \9;
 }
 
 /* line 149, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/buttons.scss */
@@ -3912,7 +3912,7 @@ input[type="submit"].btn.btn-mini {
 .btn-link {
   border-color: transparent;
   cursor: pointer;
-  color: #222222;
+  color: #333333;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -3921,7 +3921,7 @@ input[type="submit"].btn.btn-mini {
 /* line 219, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/buttons.scss */
 .btn-link:hover,
 .btn-link:focus {
-  color: black;
+  color: #191919;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3985,22 +3985,22 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* line 49, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/button-groups.scss */
 .btn-group > .btn-mini {
-  font-size: 10.5px;
+  font-size: 9px;
 }
 
 /* line 52, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/button-groups.scss */
 .btn-group > .btn-small {
-  font-size: 11.9px;
+  font-size: 10.2px;
 }
 
 /* line 55, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/button-groups.scss */
 .btn-group > .btn-large {
-  font-size: 17.5px;
+  font-size: 15px;
 }
 
 /* line 60, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/button-groups.scss */
@@ -4107,7 +4107,7 @@ input[type="submit"].btn.btn-mini {
 }
 /* line 140, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/button-groups.scss */
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #222222;
+  background-color: #333333;
 }
 /* line 143, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/button-groups.scss */
 .btn-group.open .btn-warning.dropdown-toggle {
@@ -4380,7 +4380,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:focus {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #222222;
+  background-color: #333333;
 }
 
 /* line 79, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navs.scss */
@@ -4464,7 +4464,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
   color: #555555;
-  background-color: #222222;
+  background-color: white;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -4486,7 +4486,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
   color: white;
-  background-color: #222222;
+  background-color: #333333;
 }
 
 /* line 170, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navs.scss */
@@ -4565,16 +4565,16 @@ input[type="submit"].btn.btn-mini {
 
 /* line 220, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navs.scss */
 .nav .dropdown-toggle .caret {
-  border-top-color: #222222;
-  border-bottom-color: #222222;
+  border-top-color: #333333;
+  border-bottom-color: #333333;
   margin-top: 6px;
 }
 
 /* line 226, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navs.scss */
 .nav .dropdown-toggle:hover .caret,
 .nav .dropdown-toggle:focus .caret {
-  border-top-color: black;
-  border-bottom-color: black;
+  border-top-color: #191919;
+  border-bottom-color: #191919;
 }
 
 /* move down carets for tabs */
@@ -4792,18 +4792,18 @@ input[type="submit"].btn.btn-mini {
 
 /* line 21, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar-inner {
-  min-height: 120px;
+  min-height: auto;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #222222;
-  background-image: -moz-linear-gradient(top, #222222, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#222222));
-  background-image: -webkit-linear-gradient(top, #222222, #222222);
-  background-image: -o-linear-gradient(top, #222222, #222222);
-  background-image: linear-gradient(to bottom, #222222, #222222);
+  background-color: white;
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(white));
+  background-image: -webkit-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF222222', endColorstr='#FF222222', GradientType=0);
-  border: 1px solid #222222;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFFFFFFF', GradientType=0);
+  border: 1px solid #e0e0e0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -4838,12 +4838,12 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 50px 20px 50px;
+  padding: auto-20px/2 20px auto-20px/2;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
-  color: #777777;
-  text-shadow: 0 1px 0 #222222;
+  color: #333333;
+  text-shadow: 0 1px 0 white;
 }
 /* line 60, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .brand:hover, .navbar .brand:focus {
@@ -4853,31 +4853,31 @@ input[type="submit"].btn.btn-mini {
 /* line 67, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar-text {
   margin-bottom: 0;
-  line-height: 120px;
-  color: #777777;
+  line-height: auto;
+  color: #333333;
 }
 
 /* line 75, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar-link {
-  color: #777777;
+  color: #333333;
 }
 /* line 78, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar-link:hover, .navbar-link:focus {
-  color: white;
+  color: #191919;
 }
 
 /* line 85, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .divider-vertical {
-  height: 120px;
+  height: auto;
   margin: 0 9px;
-  border-left: 1px solid #222222;
-  border-right: 1px solid #222222;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 /* line 95, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .btn,
 .navbar .btn-group {
-  margin-top: 45px;
+  margin-top: auto-30px/2;
 }
 
 /* line 102, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
@@ -4909,7 +4909,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-form select,
 .navbar-form .radio,
 .navbar-form .checkbox {
-  margin-top: 45px;
+  margin-top: auto-30px/2;
 }
 /* line 119, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar-form input,
@@ -4940,14 +4940,14 @@ input[type="submit"].btn.btn-mini {
 .navbar-search {
   position: relative;
   float: left;
-  margin-top: 45px;
+  margin-top: auto-30px/2;
   margin-bottom: 0;
 }
 /* line 145, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -5053,10 +5053,10 @@ input[type="submit"].btn.btn-mini {
 /* line 242, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .nav > li > a {
   float: none;
-  padding: 50px 15px 50px;
-  color: #777777;
+  padding: auto-20px/2 15px auto-20px/2;
+  color: #333333;
   text-decoration: none;
-  text-shadow: 0 1px 0 #222222;
+  text-shadow: 0 1px 0 white;
 }
 
 /* line 250, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
@@ -5068,7 +5068,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
-  color: white;
+  color: #191919;
   text-decoration: none;
 }
 
@@ -5076,9 +5076,9 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: white;
+  color: #191919;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #f2f2f2;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -5093,17 +5093,17 @@ input[type="submit"].btn.btn-mini {
   margin-right: 5px;
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #151515;
-  background-image: -moz-linear-gradient(top, #151515, #151515);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#151515));
-  background-image: -webkit-linear-gradient(top, #151515, #151515);
-  background-image: -o-linear-gradient(top, #151515, #151515);
-  background-image: linear-gradient(to bottom, #151515, #151515);
+  background-color: #f2f2f2;
+  background-image: -moz-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -o-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: linear-gradient(to bottom, #f2f2f2, #f2f2f2);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF151515', endColorstr='#FF151515', GradientType=0);
-  border-color: #151515 #151515 black;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF2F2F2', endColorstr='#FFF2F2F2', GradientType=0);
+  border-color: #f2f2f2 #f2f2f2 #cccccc;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) fadein(rgba(0, 0, 0, 0.1), 15%);
-  *background-color: #151515;
+  *background-color: #f2f2f2;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
@@ -5113,12 +5113,12 @@ input[type="submit"].btn.btn-mini {
 /* line 540, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
 .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
   color: white;
-  background-color: #151515;
-  *background-color: #090909;
+  background-color: #f2f2f2;
+  *background-color: #e6e6e6;
 }
 /* line 548, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
 .navbar .btn-navbar:active, .navbar .btn-navbar.active {
-  background-color: black \9;
+  background-color: #d9d9d9 \9;
 }
 
 /* line 283, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
@@ -5183,30 +5183,30 @@ input[type="submit"].btn.btn-mini {
 /* line 343, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .nav li.dropdown > a:hover .caret,
 .navbar .nav li.dropdown > a:focus .caret {
-  border-top-color: white;
-  border-bottom-color: white;
+  border-top-color: #191919;
+  border-bottom-color: #191919;
 }
 
 /* line 351, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: transparent;
-  color: white;
+  background-color: #f2f2f2;
+  color: #191919;
 }
 
 /* line 355, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777;
+  border-top-color: #333333;
+  border-bottom-color: #333333;
 }
 
 /* line 361, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: white;
-  border-bottom-color: white;
+  border-top-color: #191919;
+  border-bottom-color: #191919;
 }
 
 /* line 368, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/navbar.scss */
@@ -5516,7 +5516,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 15px;
 }
 /* line 86, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/pagination.scss */
 .pagination-large ul > li:first-child > a,
@@ -5568,14 +5568,14 @@ input[type="submit"].btn.btn-mini {
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
-  font-size: 11.9px;
+  font-size: 10.2px;
 }
 
 /* line 119, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/pagination.scss */
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
-  padding: 1px 6px;
-  font-size: 10.5px;
+  padding: 0 6px;
+  font-size: 9px;
 }
 
 /* line 6, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/pager.scss */
@@ -6061,7 +6061,7 @@ input[type="submit"].btn.btn-mini {
 /* line 38, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #222222;
+  border-color: #333333;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
@@ -6131,7 +6131,7 @@ a.thumbnail:focus {
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: 11.844px;
+  font-size: 10.152px;
   font-weight: bold;
   line-height: 14px;
   color: white;
@@ -6759,102 +6759,20 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   position: fixed;
 }
 
-/* line 1, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-a .text {
-  display: inline-block;
-  *display: inline;
-  /* IE7 inline-block hack */
-  *zoom: 1;
+/* Nicolas Gallagher's micro clearfix */
+/* line 48, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/_mixins.scss */
+.clearfix {
+  zoom: 1;
 }
-
-/* line 6, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.html-text table {
-  width: 100%;
-  margin-bottom: 18px;
+/* line 38, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/_mixins.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  zoom: 1;
 }
-/* line 9, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.html-text table th, .html-text table td {
-  padding: 8px;
-  line-height: 18px;
-  text-align: left;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
-}
-/* line 17, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.html-text img {
-  margin-bottom: 10px;
-}
-/* line 20, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.html-text ul {
-  list-style-position: inside;
-}
-
-/* line 24, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.thumbnail {
-  line-height: 1.4;
-}
-
-/* line 27, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.navbar .btn-navbar {
+/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/_mixins.scss */
+.clearfix:after {
   clear: both;
-  float: none;
-  width: 100%;
-  margin: 0;
-  padding: 7px 0;
-  color: #777777;
-}
-
-/* line 35, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.navbar .btn-navbar:hover {
-  color: white;
-}
-
-/* line 40, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.navbar .btn-navbar.active,
-.navbar .btn-navbar:active {
-  color: white;
-}
-
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.navbar .nav > li > a {
-  background-color: transparent;
-}
-
-/* line 47, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.navbar .brand {
-  margin: 0;
-  line-height: 20px;
-  text-shadow: none;
-}
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.navbar .brand a {
-  color: #777777;
-}
-/* line 53, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.navbar .brand a:hover {
-  color: #777777;
-  text-decoration: none;
-}
-
-/* line 62, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-aside > section {
-  margin-top: 20px;
-}
-
-/* line 65, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-#site_by {
-  font-size: 12px;
-}
-
-/* line 68, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-.missing-document-preview {
-  background: transparent url(/assets/gko/icon_pdf_grey_light_x110.png) left center no-repeat;
-  min-height: 110px;
-}
-
-/* line 74, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
-li .thumbnail img.default_image {
-  max-width: none;
 }
 
 /*--------------------------------------------------
@@ -6877,17 +6795,17 @@ that IE7/8 do not support :nth-child.
 .grid {
   display: block;
   overflow: hidden;
-  *zoom: 1;
+  zoom: 1;
   margin: 0;
   padding: 0;
 }
-/* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
+/* line 38, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/_mixins.scss */
 .grid:before, .grid:after {
   display: table;
   content: "";
-  line-height: 0;
+  zoom: 1;
 }
-/* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
+/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/_mixins.scss */
 .grid:after {
   clear: both;
 }
@@ -6999,2336 +6917,70 @@ that IE7/8 do not support :nth-child.
   clear: left;
 }
 
-/* line 2, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_footer.scss */
-footer2 {
-  min-height: 40px;
-  background-color: transparent;
-}
-/* line 9, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_footer.scss */
-footer2 .nav {
-  position: relative;
-  left: 0;
-  display: block;
-  float: left;
-  margin: 0 10px 0 0;
-}
-/* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_footer.scss */
-footer2 .nav > li {
-  display: block;
-  float: left;
-}
-/* line 22, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_footer.scss */
-footer2 .nav > li > a {
-  float: none;
-  padding: 9px 10px 11px;
-  line-height: 19px;
-  color: #777777;
-  text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: transparent;
-}
-/* line 35, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_footer.scss */
-footer2 .nav > li > a:hover {
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
-}
-
-/* line 2, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container {
-  min-height: 40px;
-  background-color: transparent;
-  color: copyrightText;
-  font-size: 14px;
-}
-/* line 7, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container a {
-  color: #777777;
-  background-color: transparent;
-}
-/* line 10, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container a:hover {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-/* line 17, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container a.copyright-author {
-  float: right;
-  padding: 9px 10px 11px;
-  line-height: 19px;
-  color: #777777;
-  text-decoration: none;
+/* line 7, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+body {
+  background: white;
   font-size: 12px;
-}
-/* line 29, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container .nav {
-  position: relative;
-  left: 0;
-  display: block;
-  float: left;
-  margin: 0 10px 0 0;
-}
-/* line 36, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container .nav > li {
-  display: block;
-  float: left;
-}
-/* line 42, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container .nav > li > a {
-  float: none;
-  padding: 9px 10px 11px;
-  line-height: 19px;
-  color: #777777;
-  text-decoration: none;
-  background-color: transparent;
-  font-size: 12px;
-}
-/* line 55, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
-#copyright-container .nav > li > a:hover {
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
+  line-height: 15px;
 }
 
-/*
- * jQuery FlexSlider v2.1
- * http://www.woothemes.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Tyler Smith (@mbmufffin)
- */
-/* Browser Resets */
-/* line 18, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-container a:active,
-.flexslider a:active,
-.flex-container a:focus,
-.flexslider a:focus {
-  outline: none;
+/* line 13, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+.hide-on-print {
+  display: none;
 }
 
-/* line 21, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.slides,
-.flex-control-nav,
-.flex-direction-nav {
-  margin: 0;
+/* line 17, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+.show-on-print {
+  display: block;
+}
+
+/* line 21, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+#sidebar {
+  display: none;
+}
+
+/* line 25, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+#wrapper-wide-body {
+  width: auto;
+  margin: 5%;
   padding: 0;
+  border: 0;
+  float: none !important;
+  color: black;
+  background: transparent none;
+}
+
+/* line 35, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+a:link, a:visited {
+  color: #520;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* line 42, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+.images-thumbnails li {
+  float: left;
+  position: relative;
   list-style: none;
 }
 
-/* FlexSlider Necessary Styles
-*********************************/
-/* line 25, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider {
-  margin: 0;
-  padding: 0;
+/* line 47, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+.images-thumbnails li:nth-child(4n+1) {
+  clear: left;
 }
 
-/* line 26, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider .slides > li {
-  display: none;
-  -webkit-backface-visibility: hidden;
-}
-
-/* Hide the slides before the JS is loaded. Avoids image jumping */
-/* line 27, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider .slides img {
-  width: 100%;
-  display: block;
-}
-
-/* line 28, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-pauseplay span {
-  text-transform: capitalize;
-}
-
-/* Clearfix for the .slides element */
-/* line 31, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.slides:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-/* line 32, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-html[xmlns] .slides {
-  display: block;
-}
-
-/* line 33, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-* html .slides {
-  height: 1%;
-}
-
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-/* line 38, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.no-js .slides > li:first-child {
-  display: block;
-}
-
-/* FlexSlider Default Theme
-*********************************/
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider {
-  margin: 0 0 60px;
-  background: #fff;
-  border: 4px solid white;
-  position: relative;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  zoom: 1;
-}
-
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-viewport {
-  max-height: 2000px;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-/* line 45, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.loading .flex-viewport {
-  max-height: 300px;
-}
-
-/* line 46, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider .slides {
-  zoom: 1;
-}
-
-/* line 48, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.carousel li {
-  margin-right: 5px;
-}
-
-/* Direction Nav */
-/* line 52, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-direction-nav {
-  *height: 0;
-}
-
-/* line 53, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-direction-nav a {
-  width: 30px;
-  height: 30px;
-  margin: -20px 0 0;
-  display: block;
-  background: url(/assets/flexslider/bg_direction_nav.png) no-repeat 0 0;
-  position: absolute;
-  top: 50%;
-  cursor: pointer;
-  text-indent: -9999px;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease;
-}
-
-/* line 54, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-direction-nav .flex-next {
-  background-position: 100% 0;
-  right: -36px;
-}
-
-/* line 55, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-direction-nav .flex-prev {
-  left: -36px;
-}
-
-/* line 56, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider:hover .flex-next {
-  opacity: 0.8;
-  right: 5px;
-}
-
-/* line 57, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider:hover .flex-prev {
-  opacity: 0.8;
-  left: 5px;
-}
-
-/* line 58, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
-  opacity: 1;
-}
-
-/* line 59, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-direction-nav .flex-disabled {
-  opacity: .3!important;
-  filter: alpha(opacity=30);
-  cursor: default;
-}
-
-/* Control Nav */
-/* line 62, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-nav {
-  width: 100%;
-  position: absolute;
-  bottom: -40px;
-  text-align: center;
-}
-
-/* line 63, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-nav li {
-  margin: 0 6px;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-}
-
-/* line 64, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-paging li a {
-  width: 11px;
-  height: 11px;
-  display: block;
-  background: #666;
-  background: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  text-indent: -9999px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
-  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-}
-
-/* line 65, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-paging li a:hover {
-  background: #333;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-/* line 66, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-paging li a.flex-active {
-  background: #000;
-  background: rgba(0, 0, 0, 0.9);
-  cursor: default;
-}
-
-/* line 68, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-thumbs {
-  margin: 5px 0 0;
-  position: static;
-  overflow: hidden;
-}
-
-/* line 69, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-thumbs li {
-  width: 25%;
-  float: left;
-  margin: 0;
-}
-
-/* line 70, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-thumbs img {
-  width: 100%;
-  display: block;
-  opacity: .7;
-  cursor: pointer;
-}
-
-/* line 71, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-thumbs img:hover {
-  opacity: 1;
-}
-
-/* line 72, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-.flex-control-thumbs .flex-active {
-  opacity: 1;
-  cursor: default;
-}
-
-@media screen and (max-width: 860px) {
-  /* line 75, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-  .flex-direction-nav .flex-prev {
-    opacity: 1;
-    left: 0;
-  }
-
-  /* line 76, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/flexslider/flexslider.css */
-  .flex-direction-nav .flex-next {
-    opacity: 1;
-    right: 0;
-  }
-}
-/*
- * CSS Styles that are needed by jScrollPane for it to operate correctly.
- *
- * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
- * may not operate correctly without them.
- */
-/* line 9, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspContainer {
-  overflow: hidden;
-  position: relative;
-  -webkit-user-select: "none";
-  -moz-user-select: "none";
-  -ms-user-select: "none";
-  -o-user-select: "none";
-  user-select: "none";
-}
-
-/* line 16, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspPane {
-  position: absolute;
-}
-
-/* line 21, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspVerticalBar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 16px;
-  height: 100%;
-  background: transparent;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-}
-
-/* line 32, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspHorizontalBar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 16px;
-  background: transparent;
-}
-
-/* line 43, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspVerticalBar *,
-.jspHorizontalBar * {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 49, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspCap {
+/* line 50, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+.es-nav {
   display: none;
 }
 
-/* line 54, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspHorizontalBar .jspCap {
-  float: left;
-}
-
-/* line 59, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspTrack {
-  background: rgba(0, 0, 0, 0.3);
-  position: relative;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-}
-
-/* line 66, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspDrag {
-  background: white;
-  position: relative;
-  top: 0;
-  left: 4px;
-  width: 8px;
-  cursor: pointer;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-
-/* line 78, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspHorizontalBar .jspTrack,
-.jspHorizontalBar .jspDrag {
-  float: left;
-  height: 100%;
-}
-
-/* line 84, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspArrow {
-  background: #50506d;
-  text-indent: -20000px;
-  display: block;
-  cursor: pointer;
-}
-
-/* line 92, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspArrow.jspDisabled {
-  cursor: default;
-  background: #80808d;
-}
-
-/* line 98, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspVerticalBar .jspArrow {
-  height: 16px;
-}
-
-/* line 103, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspHorizontalBar .jspArrow {
-  width: 16px;
-  float: left;
-  height: 100%;
-}
-
-/* line 110, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspVerticalBar .jspArrow:focus {
-  outline: none;
-}
-
-/* line 115, ../../app/assets/stylesheets/_jscrollpane.scss */
-.jspCorner {
-  background: #eeeef4;
-  float: left;
-  height: 100%;
-}
-
-/* Yuk! CSS Hack for IE6 3 pixel bug :( */
-/* line 123, ../../app/assets/stylesheets/_jscrollpane.scss */
-* html .jspCorner {
-  margin: 0 -3px 0 0;
-}
-
-/* line 14, ../../app/assets/stylesheets/public.css.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* line 19, ../../app/assets/stylesheets/public.css.scss */
-.jspScrollable,
-.btn:focus,
-a:focus {
-  outline: 0;
-}
-
-/* line 39, ../../app/assets/stylesheets/public.css.scss */
-select,
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"],
-input[type="color"],
-.uneditable-input {
-  height: 40px;
-  line-height: 40px;
-}
-
-/* line 44, ../../app/assets/stylesheets/public.css.scss */
-textarea {
-  height: 120px;
-}
-
-/* line 48, ../../app/assets/stylesheets/public.css.scss */
-form input, form textarea {
-  width: 100%;
-}
-
-/*-----------------------------------------
- STRUCTURAL LAYOUT 
------------------------------------------ */
-/* line 56, ../../app/assets/stylesheets/public.css.scss */
-body {
-  background-image: url(/assets/tasky_pattern.png);
-  background-repeat: repeat;
-  border-top: 6px solid #e0bb0f;
-}
-
-/* line 62, ../../app/assets/stylesheets/public.css.scss */
-.navbar .navbar-inner,
-.container-fluid {
-  padding: 0;
-}
-
-/* line 65, ../../app/assets/stylesheets/public.css.scss */
-.navbar .navbar-inner {
-  background: none;
-  border: none;
-}
-
-/*-----------------------------------------
- HEADER
------------------------------------------ */
-/* line 73, ../../app/assets/stylesheets/public.css.scss */
-.navbar {
-  margin-bottom: 0;
-}
-/* line 75, ../../app/assets/stylesheets/public.css.scss */
-.navbar .brand {
-  float: left;
-  margin: 0;
-  padding: 5px 0;
-}
-/* line 79, ../../app/assets/stylesheets/public.css.scss */
-.navbar .brand a {
-  color: #777777;
-  cursor: pointer;
-  padding: 0;
-  margin: 0 auto;
-  background: transparent url(/assets/logo.png) center center no-repeat;
-  text-decoration: none;
-  display: block;
-  width: 206px;
-  height: 120px;
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-/* line 89, ../../app/assets/stylesheets/public.css.scss */
-.navbar .brand a:hover {
-  color: white;
-  text-decoration: none;
-}
-/* line 95, ../../app/assets/stylesheets/public.css.scss */
-.navbar .nav > li > a {
-  text-transform: uppercase;
-  padding: 44px 8px 0;
-}
-/* line 100, ../../app/assets/stylesheets/public.css.scss */
-.navbar nav + nav .nav > li > a {
-  padding: 12px 8px 12px;
-}
-/* line 103, ../../app/assets/stylesheets/public.css.scss */
-.navbar #secondary-menu {
+/* line 53, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+.next-previous {
   display: none;
 }
 
-/* line 108, ../../app/assets/stylesheets/public.css.scss */
-.header-top {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-/* line 112, ../../app/assets/stylesheets/public.css.scss */
-.header-top nav {
-  float: left;
-}
-/* line 115, ../../app/assets/stylesheets/public.css.scss */
-.header-top .nav > li > a {
-  text-transform: capitalize;
-  padding: 0;
-}
-
-/*-----------------------------------------
- FOOTER
------------------------------------------ */
-/* line 125, ../../app/assets/stylesheets/public.css.scss */
-.footer .nav > li > a {
-  text-transform: capitalize;
-}
-
-/*-----------------------------------------
- CONTENT
------------------------------------------ */
-/* line 134, ../../app/assets/stylesheets/public.css.scss */
-.slider-flexslider {
-  margin: 0;
-  padding: 24px;
-  border: 1px solid black;
-  background: black;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-/* line 141, ../../app/assets/stylesheets/public.css.scss */
-.flex-control-paging li a {
-  background: #333333;
-  background-color: #333333;
-}
-/* line 144, ../../app/assets/stylesheets/public.css.scss */
-.flex-control-paging li a:hover {
-  background: white;
-  background-color: white;
-}
-/* line 148, ../../app/assets/stylesheets/public.css.scss */
-.flex-control-paging li a.flex-active {
-  background: #999999;
-  background-color: #999999;
-}
-
-/* line 153, ../../app/assets/stylesheets/public.css.scss */
-.html-text {
-  font-weight: bold;
-}
-
-/* CUSTOMIZE THE COPYRIGHT
-  -------------------------------------------------- */
-/* line 159, ../../app/assets/stylesheets/public.css.scss */
-#copyright-container a {
-  font-weight: normal;
-}
-
-/* RESPONSIVE CSS
-   -------------------------------------------------- */
-/*
- * Bootstrap Responsive v2.3.0
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
-/* line 28, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-.clearfix {
-  *zoom: 1;
-}
-/* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-.clearfix:before, .clearfix:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-/* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-.clearfix:after {
-  clear: both;
-}
-
-/* line 125, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-.hide-text {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-
-@-ms-viewport {
-  width: device-width;
-}
-
-/* line 15, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-.hidden {
+/* line 56, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko_print.css.scss */
+#site_by {
   display: none;
-  visibility: hidden;
-}
-
-/* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-.visible-phone {
-  display: none !important;
-}
-
-/* line 24, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-.visible-tablet {
-  display: none !important;
-}
-
-/* line 27, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-.hidden-desktop {
-  display: none !important;
-}
-
-/* line 28, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-.visible-desktop {
-  display: inherit !important;
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  /* line 33, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .hidden-desktop {
-    display: inherit !important;
-  }
-
-  /* line 34, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .visible-desktop {
-    display: none !important;
-  }
-
-  /* line 36, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .visible-tablet {
-    display: inherit !important;
-  }
-
-  /* line 38, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .hidden-tablet {
-    display: none !important;
-  }
-}
-@media (max-width: 767px) {
-  /* line 44, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .hidden-desktop {
-    display: inherit !important;
-  }
-
-  /* line 45, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .visible-desktop {
-    display: none !important;
-  }
-
-  /* line 47, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .visible-phone {
-    display: inherit !important;
-  }
-
-  /* line 49, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .hidden-phone {
-    display: none !important;
-  }
-}
-/* line 53, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-.visible-print {
-  display: none !important;
-}
-
-@media print {
-  /* line 57, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .visible-print {
-    display: inherit !important;
-  }
-
-  /* line 58, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-utilities.scss */
-  .hidden-print {
-    display: none !important;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 608, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row {
-    margin-left: -30px;
-    *zoom: 1;
-  }
-  /* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row:before, .row:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  /* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row:after {
-    clear: both;
-  }
-
-  /* line 613, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 30px;
-  }
-
-  /* line 623, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .container,
-  .navbar-static-top .container,
-  .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container {
-    width: 1170px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span1 {
-    width: 70px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span2 {
-    width: 170px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span3 {
-    width: 270px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span4 {
-    width: 370px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span5 {
-    width: 470px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span6 {
-    width: 570px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span7 {
-    width: 670px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span8 {
-    width: 770px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span9 {
-    width: 870px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span10 {
-    width: 970px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span11 {
-    width: 1070px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span12 {
-    width: 1170px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset1 {
-    margin-left: 130px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset2 {
-    margin-left: 230px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset3 {
-    margin-left: 330px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset4 {
-    margin-left: 430px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset5 {
-    margin-left: 530px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset6 {
-    margin-left: 630px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset7 {
-    margin-left: 730px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset8 {
-    margin-left: 830px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset9 {
-    margin-left: 930px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset10 {
-    margin-left: 1030px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset11 {
-    margin-left: 1130px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset12 {
-    margin-left: 1230px;
-  }
-
-  /* line 654, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid {
-    width: 100%;
-    *zoom: 1;
-  }
-  /* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid:before, .row-fluid:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  /* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid:after {
-    clear: both;
-  }
-  /* line 657, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid [class*="span"] {
-    display: block;
-    width: 100%;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    float: left;
-    margin-left: 2.5641%;
-    *margin-left: 2.51091%;
-  }
-  /* line 663, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid [class*="span"]:first-child {
-    margin-left: 0;
-  }
-  /* line 668, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 2.5641%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span1 {
-    width: 5.98291%;
-    *width: 5.92971%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span2 {
-    width: 14.52991%;
-    *width: 14.47672%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span3 {
-    width: 23.07692%;
-    *width: 23.02373%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span4 {
-    width: 31.62393%;
-    *width: 31.57074%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span5 {
-    width: 40.17094%;
-    *width: 40.11775%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span6 {
-    width: 48.71795%;
-    *width: 48.66476%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span7 {
-    width: 57.26496%;
-    *width: 57.21177%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span8 {
-    width: 65.81197%;
-    *width: 65.75877%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span9 {
-    width: 74.35897%;
-    *width: 74.30578%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span10 {
-    width: 82.90598%;
-    *width: 82.85279%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span11 {
-    width: 91.45299%;
-    *width: 91.3998%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span12 {
-    width: 100%;
-    *width: 99.94681%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset1 {
-    margin-left: 11.11111%;
-    *margin-left: 11.00473%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset1:first-child {
-    margin-left: 8.54701%;
-    *margin-left: 8.44063%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset2 {
-    margin-left: 19.65812%;
-    *margin-left: 19.55174%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset2:first-child {
-    margin-left: 17.09402%;
-    *margin-left: 16.98763%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset3 {
-    margin-left: 28.20513%;
-    *margin-left: 28.09875%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset3:first-child {
-    margin-left: 25.64103%;
-    *margin-left: 25.53464%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset4 {
-    margin-left: 36.75214%;
-    *margin-left: 36.64575%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset4:first-child {
-    margin-left: 34.18803%;
-    *margin-left: 34.08165%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset5 {
-    margin-left: 45.29915%;
-    *margin-left: 45.19276%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset5:first-child {
-    margin-left: 42.73504%;
-    *margin-left: 42.62866%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset6 {
-    margin-left: 53.84615%;
-    *margin-left: 53.73977%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset6:first-child {
-    margin-left: 51.28205%;
-    *margin-left: 51.17567%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset7 {
-    margin-left: 62.39316%;
-    *margin-left: 62.28678%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset7:first-child {
-    margin-left: 59.82906%;
-    *margin-left: 59.72268%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset8 {
-    margin-left: 70.94017%;
-    *margin-left: 70.83379%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset8:first-child {
-    margin-left: 68.37607%;
-    *margin-left: 68.26969%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset9 {
-    margin-left: 79.48718%;
-    *margin-left: 79.3808%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset9:first-child {
-    margin-left: 76.92308%;
-    *margin-left: 76.81669%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset10 {
-    margin-left: 88.03419%;
-    *margin-left: 87.92781%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset10:first-child {
-    margin-left: 85.47009%;
-    *margin-left: 85.3637%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset11 {
-    margin-left: 96.5812%;
-    *margin-left: 96.47481%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset11:first-child {
-    margin-left: 94.01709%;
-    *margin-left: 93.91071%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset12 {
-    margin-left: 105.12821%;
-    *margin-left: 105.02182%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset12:first-child {
-    margin-left: 102.5641%;
-    *margin-left: 102.45772%;
-  }
-
-  /* line 689, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input,
-  textarea,
-  .uneditable-input {
-    margin-left: 0;
-  }
-
-  /* line 694, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 30px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span1, textarea.span1, .uneditable-input.span1 {
-    width: 56px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span2, textarea.span2, .uneditable-input.span2 {
-    width: 156px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span3, textarea.span3, .uneditable-input.span3 {
-    width: 256px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span4, textarea.span4, .uneditable-input.span4 {
-    width: 356px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span5, textarea.span5, .uneditable-input.span5 {
-    width: 456px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span6, textarea.span6, .uneditable-input.span6 {
-    width: 556px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span7, textarea.span7, .uneditable-input.span7 {
-    width: 656px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span8, textarea.span8, .uneditable-input.span8 {
-    width: 756px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span9, textarea.span9, .uneditable-input.span9 {
-    width: 856px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span10, textarea.span10, .uneditable-input.span10 {
-    width: 956px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span11, textarea.span11, .uneditable-input.span11 {
-    width: 1056px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span12, textarea.span12, .uneditable-input.span12 {
-    width: 1156px;
-  }
-
-  /* line 18, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-1200px-min.scss */
-  .thumbnails {
-    margin-left: -30px;
-  }
-
-  /* line 21, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-1200px-min.scss */
-  .thumbnails > li {
-    margin-left: 30px;
-  }
-
-  /* line 24, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-1200px-min.scss */
-  .row-fluid .thumbnails {
-    margin-left: 0;
-  }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  /* line 608, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row {
-    margin-left: -20px;
-    *zoom: 1;
-  }
-  /* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row:before, .row:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  /* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row:after {
-    clear: both;
-  }
-
-  /* line 613, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 20px;
-  }
-
-  /* line 623, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .container,
-  .navbar-static-top .container,
-  .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container {
-    width: 724px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span1 {
-    width: 42px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span2 {
-    width: 104px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span3 {
-    width: 166px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span4 {
-    width: 228px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span5 {
-    width: 290px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span6 {
-    width: 352px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span7 {
-    width: 414px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span8 {
-    width: 476px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span9 {
-    width: 538px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span10 {
-    width: 600px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span11 {
-    width: 662px;
-  }
-
-  /* line 599, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .span12 {
-    width: 724px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset1 {
-    margin-left: 82px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset2 {
-    margin-left: 144px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset3 {
-    margin-left: 206px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset4 {
-    margin-left: 268px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset5 {
-    margin-left: 330px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset6 {
-    margin-left: 392px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset7 {
-    margin-left: 454px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset8 {
-    margin-left: 516px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset9 {
-    margin-left: 578px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset10 {
-    margin-left: 640px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset11 {
-    margin-left: 702px;
-  }
-
-  /* line 604, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .offset12 {
-    margin-left: 764px;
-  }
-
-  /* line 654, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid {
-    width: 100%;
-    *zoom: 1;
-  }
-  /* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid:before, .row-fluid:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  /* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid:after {
-    clear: both;
-  }
-  /* line 657, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid [class*="span"] {
-    display: block;
-    width: 100%;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    float: left;
-    margin-left: 2.76243%;
-    *margin-left: 2.70924%;
-  }
-  /* line 663, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid [class*="span"]:first-child {
-    margin-left: 0;
-  }
-  /* line 668, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 2.76243%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span1 {
-    width: 5.8011%;
-    *width: 5.74791%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span2 {
-    width: 14.36464%;
-    *width: 14.31145%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span3 {
-    width: 22.92818%;
-    *width: 22.87499%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span4 {
-    width: 31.49171%;
-    *width: 31.43852%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span5 {
-    width: 40.05525%;
-    *width: 40.00206%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span6 {
-    width: 48.61878%;
-    *width: 48.56559%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span7 {
-    width: 57.18232%;
-    *width: 57.12913%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span8 {
-    width: 65.74586%;
-    *width: 65.69266%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span9 {
-    width: 74.30939%;
-    *width: 74.2562%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span10 {
-    width: 82.87293%;
-    *width: 82.81974%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span11 {
-    width: 91.43646%;
-    *width: 91.38327%;
-  }
-  /* line 644, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .span12 {
-    width: 100%;
-    *width: 99.94681%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset1 {
-    margin-left: 11.32597%;
-    *margin-left: 11.21958%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset1:first-child {
-    margin-left: 8.56354%;
-    *margin-left: 8.45715%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset2 {
-    margin-left: 19.8895%;
-    *margin-left: 19.78312%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset2:first-child {
-    margin-left: 17.12707%;
-    *margin-left: 17.02069%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset3 {
-    margin-left: 28.45304%;
-    *margin-left: 28.34666%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset3:first-child {
-    margin-left: 25.69061%;
-    *margin-left: 25.58422%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset4 {
-    margin-left: 37.01657%;
-    *margin-left: 36.91019%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset4:first-child {
-    margin-left: 34.25414%;
-    *margin-left: 34.14776%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset5 {
-    margin-left: 45.58011%;
-    *margin-left: 45.47373%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset5:first-child {
-    margin-left: 42.81768%;
-    *margin-left: 42.7113%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset6 {
-    margin-left: 54.14365%;
-    *margin-left: 54.03726%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset6:first-child {
-    margin-left: 51.38122%;
-    *margin-left: 51.27483%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset7 {
-    margin-left: 62.70718%;
-    *margin-left: 62.6008%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset7:first-child {
-    margin-left: 59.94475%;
-    *margin-left: 59.83837%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset8 {
-    margin-left: 71.27072%;
-    *margin-left: 71.16434%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset8:first-child {
-    margin-left: 68.50829%;
-    *margin-left: 68.4019%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset9 {
-    margin-left: 79.83425%;
-    *margin-left: 79.72787%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset9:first-child {
-    margin-left: 77.07182%;
-    *margin-left: 76.96544%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset10 {
-    margin-left: 88.39779%;
-    *margin-left: 88.29141%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset10:first-child {
-    margin-left: 85.63536%;
-    *margin-left: 85.52898%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset11 {
-    margin-left: 96.96133%;
-    *margin-left: 96.85494%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset11:first-child {
-    margin-left: 94.1989%;
-    *margin-left: 94.09251%;
-  }
-  /* line 649, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset12 {
-    margin-left: 105.52486%;
-    *margin-left: 105.41848%;
-  }
-  /* line 650, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .row-fluid .offset12:first-child {
-    margin-left: 102.76243%;
-    *margin-left: 102.65605%;
-  }
-
-  /* line 689, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input,
-  textarea,
-  .uneditable-input {
-    margin-left: 0;
-  }
-
-  /* line 694, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 20px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span1, textarea.span1, .uneditable-input.span1 {
-    width: 28px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span2, textarea.span2, .uneditable-input.span2 {
-    width: 90px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span3, textarea.span3, .uneditable-input.span3 {
-    width: 152px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span4, textarea.span4, .uneditable-input.span4 {
-    width: 214px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span5, textarea.span5, .uneditable-input.span5 {
-    width: 276px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span6, textarea.span6, .uneditable-input.span6 {
-    width: 338px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span7, textarea.span7, .uneditable-input.span7 {
-    width: 400px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span8, textarea.span8, .uneditable-input.span8 {
-    width: 462px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span9, textarea.span9, .uneditable-input.span9 {
-    width: 524px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span10, textarea.span10, .uneditable-input.span10 {
-    width: 586px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span11, textarea.span11, .uneditable-input.span11 {
-    width: 648px;
-  }
-
-  /* line 683, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  input.span12, textarea.span12, .uneditable-input.span12 {
-    width: 710px;
-  }
-}
-@media (max-width: 767px) {
-  /* line 5, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  body {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  /* line 12, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .navbar-fixed-top,
-  .navbar-fixed-bottom,
-  .navbar-static-top {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-
-  /* line 17, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .container-fluid {
-    padding: 0;
-  }
-
-  /* line 25, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .dl-horizontal dt {
-    float: none;
-    clear: none;
-    width: auto;
-    text-align: left;
-  }
-  /* line 31, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .dl-horizontal dd {
-    margin-left: 0;
-  }
-
-  /* line 39, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .container {
-    width: auto;
-  }
-
-  /* line 43, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .row-fluid {
-    width: 100%;
-  }
-
-  /* line 48, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .row,
-  .thumbnails {
-    margin-left: 0;
-  }
-
-  /* line 51, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .thumbnails > li {
-    float: none;
-    margin-left: 0;
-  }
-
-  /* line 58, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  [class*="span"],
-  .uneditable-input[class*="span"],
-  .row-fluid [class*="span"] {
-    float: none;
-    display: block;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 66, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .span12,
-  .row-fluid .span12 {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 70, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .row-fluid [class*="offset"]:first-child {
-    margin-left: 0;
-  }
-
-  /* line 83, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .input-large,
-  .input-xlarge,
-  .input-xxlarge,
-  input[class*="span"],
-  select[class*="span"],
-  textarea[class*="span"],
-  .uneditable-input {
-    display: block;
-    width: 100%;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 90, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .input-prepend input,
-  .input-append input,
-  .input-prepend input[class*="span"],
-  .input-append input[class*="span"] {
-    display: inline-block;
-    width: auto;
-  }
-
-  /* line 94, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 0;
-  }
-
-  /* line 99, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .modal {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    width: auto;
-    margin: 0;
-  }
-  /* line 106, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .modal.fade {
-    top: -100px;
-  }
-  /* line 107, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .modal.fade.in {
-    top: 20px;
-  }
-}
-@media (max-width: 480px) {
-  /* line 120, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .nav-collapse {
-    -webkit-transform: translate3d(0, 0, 0);
-  }
-
-  /* line 125, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .page-header h1 small {
-    display: block;
-    line-height: 20px;
-  }
-
-  /* line 132, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  input[type="checkbox"],
-  input[type="radio"] {
-    border: 1px solid #cccccc;
-  }
-
-  /* line 138, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .form-horizontal .control-label {
-    float: none;
-    width: auto;
-    padding-top: 0;
-    text-align: left;
-  }
-  /* line 145, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .form-horizontal .controls {
-    margin-left: 0;
-  }
-  /* line 149, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .form-horizontal .control-list {
-    padding-top: 0;
-  }
-  /* line 153, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .form-horizontal .form-actions {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  /* line 162, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .media .pull-left,
-  .media .pull-right {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  /* line 168, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .media-object {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  /* line 174, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .modal {
-    top: 10px;
-    left: 10px;
-    right: 10px;
-  }
-
-  /* line 179, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .modal-header .close {
-    padding: 10px;
-    margin: -10px;
-  }
-
-  /* line 185, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-767px-max.scss */
-  .carousel-caption {
-    position: static;
-  }
-}
-@media (max-width: 979px) {
-  /* line 13, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  body {
-    padding-top: 0;
-  }
-
-  /* line 18, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    position: static;
-  }
-
-  /* line 21, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-fixed-top {
-    margin-bottom: 20px;
-  }
-
-  /* line 24, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-fixed-bottom {
-    margin-top: 20px;
-  }
-
-  /* line 28, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-fixed-top .navbar-inner,
-  .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
-  }
-
-  /* line 31, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar .container {
-    width: auto;
-    padding: 0;
-  }
-
-  /* line 36, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar .brand {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0 0 0 -5px;
-  }
-
-  /* line 45, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse {
-    clear: both;
-  }
-
-  /* line 49, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav {
-    float: none;
-    margin: 0 0 10px;
-  }
-
-  /* line 53, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav > li {
-    float: none;
-  }
-
-  /* line 56, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav > li > a {
-    margin-bottom: 2px;
-  }
-
-  /* line 59, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav > .divider-vertical {
-    display: none;
-  }
-
-  /* line 62, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav .nav-header {
-    color: #777777;
-    text-shadow: none;
-  }
-
-  /* line 68, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav > li > a,
-  .nav-collapse .dropdown-menu a {
-    padding: 9px 15px;
-    font-weight: bold;
-    color: #777777;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-  }
-
-  /* line 75, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .btn {
-    padding: 4px 10px 4px;
-    font-weight: normal;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-  }
-
-  /* line 80, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .dropdown-menu li + li a {
-    margin-bottom: 2px;
-  }
-
-  /* line 86, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav > li > a:hover,
-  .nav-collapse .nav > li > a:focus,
-  .nav-collapse .dropdown-menu a:hover,
-  .nav-collapse .dropdown-menu a:focus {
-    background-color: #222222;
-  }
-
-  /* line 90, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-inverse .nav-collapse .nav > li > a,
-  .navbar-inverse .nav-collapse .dropdown-menu a {
-    color: #999999;
-  }
-
-  /* line 96, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-inverse .nav-collapse .nav > li > a:hover,
-  .navbar-inverse .nav-collapse .nav > li > a:focus,
-  .navbar-inverse .nav-collapse .dropdown-menu a:hover,
-  .navbar-inverse .nav-collapse .dropdown-menu a:focus {
-    background-color: #111111;
-  }
-
-  /* line 100, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse.in .btn-group {
-    margin-top: 5px;
-    padding: 0;
-  }
-
-  /* line 105, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .dropdown-menu {
-    position: static;
-    top: auto;
-    left: auto;
-    float: none;
-    display: none;
-    max-width: none;
-    margin: 0 15px;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-  }
-
-  /* line 119, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .open > .dropdown-menu {
-    display: block;
-  }
-
-  /* line 124, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .dropdown-menu:before,
-  .nav-collapse .dropdown-menu:after {
-    display: none;
-  }
-
-  /* line 127, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .dropdown-menu .divider {
-    display: none;
-  }
-
-  /* line 132, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .nav > li > .dropdown-menu:before, .nav-collapse .nav > li > .dropdown-menu:after {
-    display: none;
-  }
-
-  /* line 138, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse .navbar-form,
-  .nav-collapse .navbar-search {
-    float: none;
-    padding: 10px 15px;
-    margin: 10px 0;
-    border-top: 1px solid #222222;
-    border-bottom: 1px solid #222222;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-
-  /* line 147, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-inverse .nav-collapse .navbar-form,
-  .navbar-inverse .nav-collapse .navbar-search {
-    border-top-color: #111111;
-    border-bottom-color: #111111;
-  }
-
-  /* line 152, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar .nav-collapse .nav.pull-right {
-    float: none;
-    margin-left: 0;
-  }
-
-  /* line 158, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse,
-  .nav-collapse.collapse {
-    overflow: hidden;
-    height: 0;
-  }
-
-  /* line 163, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar .btn-navbar {
-    display: block;
-  }
-
-  /* line 169, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .navbar-static .navbar-inner {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-@media (min-width: 980px) {
-  /* line 184, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/responsive-navbar.scss */
-  .nav-collapse.collapse {
-    height: auto !important;
-    overflow: visible !important;
-  }
-}
-@media (max-width: 767px) {
-  /* line 169, ../../app/assets/stylesheets/public.css.scss */
-  body {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* line 173, ../../app/assets/stylesheets/public.css.scss */
-  #main-container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-@media (max-width: 979px) {
-  /* line 179, ../../app/assets/stylesheets/public.css.scss */
-  .carousel-flexslider {
-    display: none;
-  }
-
-  /* line 182, ../../app/assets/stylesheets/public.css.scss */
-  #content-tab {
-    display: none;
-  }
-
-  /* line 186, ../../app/assets/stylesheets/public.css.scss */
-  .navbar-inner {
-    background-color: #e0bb0f;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    padding: 0;
-  }
-
-  /* line 194, ../../app/assets/stylesheets/public.css.scss */
-  .navbar, .navbar-fixed-top {
-    margin-bottom: 0;
-  }
-  /* line 196, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .brand, .navbar-fixed-top .brand {
-    float: none;
-    text-align: center;
-    margin: 20px 0;
-  }
-  /* line 201, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav-collapse, .navbar-fixed-top .nav-collapse {
-    border-top: 1px solid lightgrey;
-  }
-  /* line 206, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav-collapse nav,
-  .navbar .nav-collapse .nav, .navbar-fixed-top .nav-collapse nav,
-  .navbar-fixed-top .nav-collapse .nav {
-    *zoom: 1;
-    margin: 0;
-  }
-  /* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .navbar .nav-collapse nav:before, .navbar .nav-collapse nav:after,
-  .navbar .nav-collapse .nav:before,
-  .navbar .nav-collapse .nav:after, .navbar-fixed-top .nav-collapse nav:before, .navbar-fixed-top .nav-collapse nav:after,
-  .navbar-fixed-top .nav-collapse .nav:before,
-  .navbar-fixed-top .nav-collapse .nav:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  /* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/mixins.scss */
-  .navbar .nav-collapse nav:after,
-  .navbar .nav-collapse .nav:after, .navbar-fixed-top .nav-collapse nav:after,
-  .navbar-fixed-top .nav-collapse .nav:after {
-    clear: both;
-  }
-  /* line 210, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav-collapse .dropdown-menu, .navbar-fixed-top .nav-collapse .dropdown-menu {
-    margin: 0;
-  }
-  /* line 214, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav-collapse .nav > li,
-  .navbar .nav-collapse .dropdown-menu li, .navbar-fixed-top .nav-collapse .nav > li,
-  .navbar-fixed-top .nav-collapse .dropdown-menu li {
-    border-bottom: 1px solid #777777;
-  }
-  /* line 218, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav-collapse .dropdown-menu li:last-child, .navbar-fixed-top .nav-collapse .dropdown-menu li:last-child {
-    border-bottom: none;
-  }
-  /* line 223, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav-collapse .nav > li > a,
-  .navbar .nav-collapse .dropdown-menu a, .navbar-fixed-top .nav-collapse .nav > li > a,
-  .navbar-fixed-top .nav-collapse .dropdown-menu a {
-    font-weight: normal;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-  }
-  /* line 232, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .dropdown-menu li > a:hover,
-  .navbar .dropdown-menu li > a:focus,
-  .navbar .dropdown-submenu:hover > a, .navbar-fixed-top .dropdown-menu li > a:hover,
-  .navbar-fixed-top .dropdown-menu li > a:focus,
-  .navbar-fixed-top .dropdown-submenu:hover > a {
-    color: white;
-    background-color: #d6b30e;
-    background-image: -moz-linear-gradient(top, #e0bb0f, #c8a70d);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e0bb0f), to(#c8a70d));
-    background-image: -webkit-linear-gradient(top, #e0bb0f, #c8a70d);
-    background-image: -o-linear-gradient(top, #e0bb0f, #c8a70d);
-    background-image: linear-gradient(to bottom, #e0bb0f, #c8a70d);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0BB0F', endColorstr='#FFC8A70D', GradientType=0);
-  }
-  /* line 240, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .dropdown-menu .active > a,
-  .navbar .dropdown-menu .active > a:hover, .navbar-fixed-top .dropdown-menu .active > a,
-  .navbar-fixed-top .dropdown-menu .active > a:hover {
-    color: white;
-    background-color: #d6b30e;
-    background-image: -moz-linear-gradient(top, #e0bb0f, #c8a70d);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e0bb0f), to(#c8a70d));
-    background-image: -webkit-linear-gradient(top, #e0bb0f, #c8a70d);
-    background-image: -o-linear-gradient(top, #e0bb0f, #c8a70d);
-    background-image: linear-gradient(to bottom, #e0bb0f, #c8a70d);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0BB0F', endColorstr='#FFC8A70D', GradientType=0);
-  }
-}
-@media (min-width: 980px) {
-  /* line 249, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav-collapse {
-    float: right;
-  }
-  /* line 252, ../../app/assets/stylesheets/public.css.scss */
-  .navbar #secondary-menu {
-    display: block;
-  }
-  /* line 255, ../../app/assets/stylesheets/public.css.scss */
-  .navbar .nav li.dropdown > .dropdown-toggle .caret {
-    display: none;
-  }
-
-  /* line 260, ../../app/assets/stylesheets/public.css.scss */
-  #wrapper-wide-body {
-    position: absolute;
-    width: 1024px;
-    overflow: hidden;
-    left: 50%;
-    margin-left: -512px;
-  }
-
-  /* line 267, ../../app/assets/stylesheets/public.css.scss */
-  #main-row {
-    position: relative;
-  }
-
-  /* line 270, ../../app/assets/stylesheets/public.css.scss */
-  .content-wrapper {
-    position: absolute;
-    right: 0px;
-    bottom: 0;
-    top: 0;
-    width: 412px;
-    overflow: visible;
-    /* ! display tab */
-    z-index: 990;
-    padding: 0 24px 0;
-    background: #000;
-    background: rgba(0, 0, 0, 0.7);
-    color: #b7b7b7;
-    margin: 24px;
-  }
-
-  /* line 284, ../../app/assets/stylesheets/public.css.scss */
-  .content-inner {
-    height: 520px;
-    /* must have an px height for scrollpane */
-  }
-
-  /* line 288, ../../app/assets/stylesheets/public.css.scss */
-  #content-tab {
-    position: absolute;
-    left: -48px;
-    top: 0;
-    bottom: 0;
-    width: 48px;
-    background: #e0bb0f;
-    background-color: rgba(224, 187, 15, 0.4);
-    border-right: 1px solid #e0bb0f;
-    text-align: center;
-    padding-top: 12px;
-  }
-  /* line 299, ../../app/assets/stylesheets/public.css.scss */
-  #content-tab i {
-    vertical-align: middle;
-    top: 236px;
-  }
-  /* line 303, ../../app/assets/stylesheets/public.css.scss */
-  #content-tab:hover {
-    background-color: rgba(224, 187, 15, 0.7);
-  }
-
-  /* line 307, ../../app/assets/stylesheets/public.css.scss */
-  .carousel-flexslider {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    border: none;
-    border-top: 1px solid white;
-  }
-  /* line 314, ../../app/assets/stylesheets/public.css.scss */
-  .carousel-flexslider li {
-    margin-right: 1px;
-    cursor: pointer;
-  }
 }

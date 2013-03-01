@@ -2453,7 +2453,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("/assets/twitter/glyphicons-halflings.png");
+  background-image: url("/assets/twitter/glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -2478,7 +2478,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("/assets/twitter/glyphicons-halflings-white.png");
+  background-image: url("/assets/twitter/glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png");
 }
 
 /* line 52, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/vendor/assets/stylesheets/twitter/bootstrap/sprites.scss */
@@ -6848,7 +6848,7 @@ aside > section {
 
 /* line 68, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-422ead877fb9/gko_core/app/assets/stylesheets/gko/public/_default.scss */
 .missing-document-preview {
-  background: transparent url(/assets/gko/icon_pdf_grey_light_x110.png) left center no-repeat;
+  background: transparent url(/assets/gko/icon_pdf_grey_light_x110-d825c44fddb67d9997a6c30644ec1433.png) left center no-repeat;
   min-height: 110px;
 }
 
@@ -7228,7 +7228,7 @@ html[xmlns] .slides {
   height: 30px;
   margin: -20px 0 0;
   display: block;
-  background: url(/assets/flexslider/bg_direction_nav.png) no-repeat 0 0;
+  background: url(/assets/flexslider/bg_direction_nav-3c36224a76ddbcac2e36b643832074cf.png) no-repeat 0 0;
   position: absolute;
   top: 50%;
   cursor: pointer;
@@ -7550,7 +7550,7 @@ form input, form textarea {
 ----------------------------------------- */
 /* line 56, ../../app/assets/stylesheets/public.css.scss */
 body {
-  background-image: url(/assets/tasky_pattern.png);
+  background-image: url(/assets/tasky_pattern-e845debe324324dff707a48efa778f2d.png);
   background-repeat: repeat;
   border-top: 6px solid #e0bb0f;
 }
@@ -7586,7 +7586,7 @@ body {
   cursor: pointer;
   padding: 0;
   margin: 0 auto;
-  background: transparent url(/assets/logo.png) center center no-repeat;
+  background: transparent url(/assets/logo-038b67aeaca781003b465d498adce606.png) center center no-repeat;
   text-decoration: none;
   display: block;
   width: 206px;
