@@ -42,10 +42,13 @@ $(document).ready(function() {
       return false;
     }
   }) 
-  var path = window.location.pathname.split('/')[1];
+  var segments = window.location.pathname.split('/');
+  var path = segments[1]
   if(path != "") {
     $('nav#primary-menu a[href^="/' + path + '"]').parent("li").addClass("active");
-    $('nav#secondary-menu a[href^="' + window.location.pathname + '"]').parent("li").addClass("active");
+    if(segments.length > 1) {
+      $('nav#secondary-menu a[href^="' + window.location.pathname + '"]').parent("li").addClass("active");
+    }
   }
   
 
