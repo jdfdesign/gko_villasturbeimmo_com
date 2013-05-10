@@ -55,7 +55,12 @@ form {
 		width: 100%;
 	}
 }
-
+.btn {
+  color: $grayDark;
+  &:hover {
+    color: $grayDark;
+  }
+}
 /*-----------------------------------------
  STRUCTURAL LAYOUT 
 ----------------------------------------- */
@@ -121,6 +126,7 @@ body {
 	position: absolute;
 	right: 0;
 	top: 0;
+	z-index: 50;
 	nav {
 		float: left;
 	}
