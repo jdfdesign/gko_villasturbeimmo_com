@@ -125,7 +125,7 @@ body {
 .header-top {
 	position: absolute;
 	right: 0;
-	top: 0;
+	top: 8px;
 	z-index: 50;
 	nav {
 		float: left;
@@ -211,7 +211,14 @@ body {
 	#content-tab {
 		display: none;
 	}
-
+	#slider {
+	  margin-bottom: $baseLineHeight * 2;
+	}
+	.footer,
+  .content-wrapper {
+    padding-left: 20px;
+		padding-right: 20px;
+  }
 	.navbar-inner {
 		background-color: $themeColor;
 		//@include gradient-vertical($themeColor, $themeColor);
@@ -233,7 +240,7 @@ body {
 
 		.nav-collapse nav,
 		.nav-collapse .nav {
-			@include clearfix();
+			//@include clearfix();
 			margin: 0;
 		}
 		.nav-collapse .dropdown-menu {
@@ -253,7 +260,9 @@ body {
 		  font-weight: normal;
 		  @include border-radius(0);
 		}
-		
+		.nav-collapse .dropdown-menu {
+		  display: block;
+		}
 		// Hover state
 		// -----------
 		.dropdown-menu li > a:hover,

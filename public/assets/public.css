@@ -8255,7 +8255,7 @@ body {
 .header-top {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 8px;
   z-index: 50;
 }
 /* line 130, ../../app/assets/stylesheets/public.css.scss */
@@ -9810,7 +9810,19 @@ body {
     display: none;
   }
 
-  /* line 215, ../../app/assets/stylesheets/public.css.scss */
+  /* line 214, ../../app/assets/stylesheets/public.css.scss */
+  #slider {
+    margin-bottom: 40px;
+  }
+
+  /* line 218, ../../app/assets/stylesheets/public.css.scss */
+  .footer,
+  .content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 222, ../../app/assets/stylesheets/public.css.scss */
   .navbar-inner {
     background-color: #e0bb0f;
     -webkit-border-radius: 0;
@@ -9822,58 +9834,41 @@ body {
     padding: 0;
   }
 
-  /* line 223, ../../app/assets/stylesheets/public.css.scss */
+  /* line 230, ../../app/assets/stylesheets/public.css.scss */
   .navbar, .navbar-fixed-top {
     margin-bottom: 0;
   }
-  /* line 225, ../../app/assets/stylesheets/public.css.scss */
+  /* line 232, ../../app/assets/stylesheets/public.css.scss */
   .navbar .brand, .navbar-fixed-top .brand {
     float: none;
     text-align: center;
     margin: 20px 0;
   }
-  /* line 230, ../../app/assets/stylesheets/public.css.scss */
+  /* line 237, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav-collapse, .navbar-fixed-top .nav-collapse {
     border-top: 1px solid lightGrey;
   }
-  /* line 235, ../../app/assets/stylesheets/public.css.scss */
+  /* line 242, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav-collapse nav,
   .navbar .nav-collapse .nav, .navbar-fixed-top .nav-collapse nav,
   .navbar-fixed-top .nav-collapse .nav {
-    *zoom: 1;
     margin: 0;
   }
-  /* line 16, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-ca81be718331/gko_core/vendor/assets/stylesheets/twitter.bootstrap.2.2.1/bootstrap/mixins.scss */
-  .navbar .nav-collapse nav:before, .navbar .nav-collapse nav:after,
-  .navbar .nav-collapse .nav:before,
-  .navbar .nav-collapse .nav:after, .navbar-fixed-top .nav-collapse nav:before, .navbar-fixed-top .nav-collapse nav:after,
-  .navbar-fixed-top .nav-collapse .nav:before,
-  .navbar-fixed-top .nav-collapse .nav:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  /* line 23, ../../../../.rvm/gems/ruby-1.8.7-p370/bundler/gems/gko_cms3-ca81be718331/gko_core/vendor/assets/stylesheets/twitter.bootstrap.2.2.1/bootstrap/mixins.scss */
-  .navbar .nav-collapse nav:after,
-  .navbar .nav-collapse .nav:after, .navbar-fixed-top .nav-collapse nav:after,
-  .navbar-fixed-top .nav-collapse .nav:after {
-    clear: both;
-  }
-  /* line 239, ../../app/assets/stylesheets/public.css.scss */
+  /* line 246, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav-collapse .dropdown-menu, .navbar-fixed-top .nav-collapse .dropdown-menu {
     margin: 0;
   }
-  /* line 243, ../../app/assets/stylesheets/public.css.scss */
+  /* line 250, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav-collapse .nav > li,
   .navbar .nav-collapse .dropdown-menu li, .navbar-fixed-top .nav-collapse .nav > li,
   .navbar-fixed-top .nav-collapse .dropdown-menu li {
     border-bottom: 1px solid #777777;
   }
-  /* line 247, ../../app/assets/stylesheets/public.css.scss */
+  /* line 254, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav-collapse .dropdown-menu li:last-child, .navbar-fixed-top .nav-collapse .dropdown-menu li:last-child {
     border-bottom: none;
   }
-  /* line 252, ../../app/assets/stylesheets/public.css.scss */
+  /* line 259, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav-collapse .nav > li > a,
   .navbar .nav-collapse .dropdown-menu a, .navbar-fixed-top .nav-collapse .nav > li > a,
   .navbar-fixed-top .nav-collapse .dropdown-menu a {
@@ -9882,7 +9877,11 @@ body {
     -moz-border-radius: 0;
     border-radius: 0;
   }
-  /* line 261, ../../app/assets/stylesheets/public.css.scss */
+  /* line 263, ../../app/assets/stylesheets/public.css.scss */
+  .navbar .nav-collapse .dropdown-menu, .navbar-fixed-top .nav-collapse .dropdown-menu {
+    display: block;
+  }
+  /* line 270, ../../app/assets/stylesheets/public.css.scss */
   .navbar .dropdown-menu li > a:hover,
   .navbar .dropdown-menu li > a:focus,
   .navbar .dropdown-submenu:hover > a, .navbar-fixed-top .dropdown-menu li > a:hover,
@@ -9898,7 +9897,7 @@ body {
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0BB0F', endColorstr='#FFC8A70D', GradientType=0);
   }
-  /* line 269, ../../app/assets/stylesheets/public.css.scss */
+  /* line 278, ../../app/assets/stylesheets/public.css.scss */
   .navbar .dropdown-menu .active > a,
   .navbar .dropdown-menu .active > a:hover, .navbar-fixed-top .dropdown-menu .active > a,
   .navbar-fixed-top .dropdown-menu .active > a:hover {
@@ -9914,20 +9913,20 @@ body {
   }
 }
 @media (min-width: 980px) {
-  /* line 278, ../../app/assets/stylesheets/public.css.scss */
+  /* line 287, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav-collapse {
     float: right;
   }
-  /* line 281, ../../app/assets/stylesheets/public.css.scss */
+  /* line 290, ../../app/assets/stylesheets/public.css.scss */
   .navbar #secondary-menu {
     display: block;
   }
-  /* line 284, ../../app/assets/stylesheets/public.css.scss */
+  /* line 293, ../../app/assets/stylesheets/public.css.scss */
   .navbar .nav li.dropdown > .dropdown-toggle .caret {
     display: none;
   }
 
-  /* line 289, ../../app/assets/stylesheets/public.css.scss */
+  /* line 298, ../../app/assets/stylesheets/public.css.scss */
   #wrapper-wide-body {
     position: absolute;
     width: 1024px;
@@ -9936,12 +9935,12 @@ body {
     margin-left: -512px;
   }
 
-  /* line 296, ../../app/assets/stylesheets/public.css.scss */
+  /* line 305, ../../app/assets/stylesheets/public.css.scss */
   #main-row {
     position: relative;
   }
 
-  /* line 299, ../../app/assets/stylesheets/public.css.scss */
+  /* line 308, ../../app/assets/stylesheets/public.css.scss */
   .content-wrapper {
     position: absolute;
     right: 0px;
@@ -9958,13 +9957,13 @@ body {
     margin: 24px;
   }
 
-  /* line 313, ../../app/assets/stylesheets/public.css.scss */
+  /* line 322, ../../app/assets/stylesheets/public.css.scss */
   .content-inner {
     height: 520px;
     /* must have an px height for scrollpane */
   }
 
-  /* line 317, ../../app/assets/stylesheets/public.css.scss */
+  /* line 326, ../../app/assets/stylesheets/public.css.scss */
   #content-tab {
     position: absolute;
     left: -48px;
@@ -9977,17 +9976,17 @@ body {
     text-align: center;
     padding-top: 12px;
   }
-  /* line 328, ../../app/assets/stylesheets/public.css.scss */
+  /* line 337, ../../app/assets/stylesheets/public.css.scss */
   #content-tab i {
     vertical-align: middle;
     top: 236px;
   }
-  /* line 332, ../../app/assets/stylesheets/public.css.scss */
+  /* line 341, ../../app/assets/stylesheets/public.css.scss */
   #content-tab:hover {
     background-color: rgba(224, 187, 15, 0.7);
   }
 
-  /* line 336, ../../app/assets/stylesheets/public.css.scss */
+  /* line 345, ../../app/assets/stylesheets/public.css.scss */
   .carousel-flexslider {
     position: absolute;
     margin: 0;
@@ -9996,7 +9995,7 @@ body {
     border: none;
     border-top: 1px solid white;
   }
-  /* line 343, ../../app/assets/stylesheets/public.css.scss */
+  /* line 352, ../../app/assets/stylesheets/public.css.scss */
   .carousel-flexslider li {
     margin-right: 1px;
     cursor: pointer;
