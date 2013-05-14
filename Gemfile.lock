@@ -1,12 +1,12 @@
 GIT
   remote: git@github.com:jdfdesign/gko_cms3.git
-  revision: ca81be718331a11d0c8a544ac81da5b61e7d0092
-  tag: v0.6.30.rc15
+  revision: cfc92b5bb69ae3b5b204701cba84aff37c2aaa87
+  tag: v0.6.30.rc16
   specs:
-    gko_auth (0.6.30.rc15)
+    gko_auth (0.6.30.rc16)
       cancan (>= 1.6.8)
       devise (>= 2.1.2)
-    gko_core (0.6.30.rc15)
+    gko_core (0.6.30.rc16)
       RedCloth (= 4.2.9)
       activesupport-slices (= 0.0.2)
       acts_as_indexed (~> 0.7.7)
@@ -51,10 +51,10 @@ GIT
       uglifier (>= 1.0.3)
       uuid (= 2.3.5)
       will_paginate (~> 3.0.2)
-    gko_documents (0.6.30.rc15)
+    gko_documents (0.6.30.rc16)
       dragonfly (~> 0.9.8)
       rack-cache (>= 0.5.3)
-    gko_inquiries (0.6.30.rc15)
+    gko_inquiries (0.6.30.rc16)
       filters_spam (~> 0.2)
 
 GEM
@@ -175,8 +175,7 @@ GEM
       railties (>= 3.0)
     macaddr (1.6.1)
       systemu (~> 2.5.0)
-    mail (2.5.3)
-      i18n (>= 0.4.0)
+    mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mail_form (1.3.0)
@@ -189,7 +188,7 @@ GEM
     nested_set (1.7.0)
       activerecord (>= 3.0.0)
       railties (>= 3.0.0)
-    net-scp (1.1.0)
+    net-scp (1.1.1)
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
